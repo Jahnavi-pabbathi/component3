@@ -1,0 +1,6 @@
+applicationType: default
+defaultPackage: com.nodemngmt
+testFramework: spock
+sourceLanguage: kotlin
+buildTool: gradle
+features: [app-name, gradle, graphql, http-client, jdbc-hikari, kotlin, kotlin-application, ksp, logback, micronaut-aot, micronaut-build, netty-server, postgres, properties, readme, serialization-jackson, shade, spock, test-resources]
