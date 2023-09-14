@@ -10,7 +10,6 @@ import io.micronaut.http.annotation.Put
 class PackageDimensionController(private val packageDimensionsService:PackageDimensionsService) {
     @Post("/add")
     fun saveDimensions(packageDimensions: PackageDimensions):PackageDimensions{
-        System.out.println("compliance "+packageDimensions)
         return packageDimensionsService.saveDimensions(packageDimensions)
     }
     @Put("/updateCompliance")

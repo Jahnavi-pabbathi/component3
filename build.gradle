@@ -47,6 +47,13 @@ dependencies {
     //httpClient
     implementation("io.micronaut:micronaut-http-client")
     implementation("io.micronaut:micronaut-http-server")
+    //test
+    annotationProcessor("io.micronaut:micronaut-inject-java:$micronautVersion")
+    testImplementation("io.micronaut:micronaut-inject-groovy:$micronautVersion")
+    testImplementation("io.micronaut.test:micronaut-test-spock")
+    testImplementation("org.spockframework:spock-core")
+
+    testApiDependenciesMetadata("io.micronaut:micronaut-inject:$micronautVersion")
 
 }
 
